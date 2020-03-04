@@ -57,7 +57,7 @@ def train(args, io):
     else:
         raise Exception("Not implemented")
 
-    # print(str(model))
+    print(str(model))
 
     model = nn.DataParallel(model)
     print("Let's use", torch.cuda.device_count(), "GPUs!")

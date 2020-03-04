@@ -71,9 +71,9 @@ ModelNet40 dataset
 |  | Mean Class Acc | Overall Acc | 
 | :---: | :---: | :---: | 
 | Paper (1024 points) | 90.2 | 92.9 |
-| This repo (1024 points) | 90.1 | 93.0 |
+| This repo (1024 points) | 90.9 | 93.3 |
 | Paper (2048 points) | 90.7 | 93.5 |
-| This repo (2048 points) | 90.5 | 93.1 |
+| This repo (2048 points) | 91.2 | 93.6 |
 
 &nbsp;
 ## Point Cloud Part Segmentation
