@@ -9,6 +9,10 @@ Note that the drawed network sturcture for classification in DGCNN paper is not 
 </p>
 
 &nbsp;
+
+**Tip:** The result of point cloud experiment usually faces greater randomness than 2D image. We suggest you run your experiement more than one time and select the best result.
+
+&nbsp;
 ## Requirements
 - Python 3.7
 - PyTorch 1.2
@@ -71,9 +75,9 @@ ModelNet40 dataset
 |  | Mean Class Acc | Overall Acc | 
 | :---: | :---: | :---: | 
 | Paper (1024 points) | 90.2 | 92.9 |
-| This repo (1024 points) | 90.9 | 93.3 |
+| This repo (1024 points) | **90.9** | **93.3** |
 | Paper (2048 points) | 90.7 | 93.5 |
-| This repo (2048 points) | 91.2 | 93.6 |
+| This repo (2048 points) | **91.2** | **93.6** |
 
 &nbsp;
 ## Point Cloud Part Segmentation
@@ -125,8 +129,8 @@ ShapeNet part dataset
 | | Mean IoU | Airplane | Bag | Cap | Car | Chair | Earphone | Guitar | Knife | Lamp | Laptop | Motor | Mug | Pistol | Rocket | Skateboard | Table
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | Shapes | | 2690 | 76 | 55 | 898 | 3758 | 69 | 787 | 392 | 1547 | 451 | 202 | 184 | 283 | 66 | 152 | 5271 | 
-| Paper | 85.2 | 84.0 | 83.4 | 86.7 | 77.8 | 90.6 | 74.7 | 91.2 | 87.5 | 82.8 | 95.7 | 66.3 | 94.9 | 81.1 | 63.5 | 74.5 | 82.6 |
-| This repo | 85.2 | 84.5 | 80.3 | 84.7 | 79.8 | 91.1 | 76.8 | 92.0 | 87.3 | 83.8 | 95.7 | 69.6 | 94.3 | 83.7 | 51.5 | 76.1 | 82.8 |
+| Paper | **85.2** | 84.0 | **83.4** | **86.7** | 77.8 | 90.6 | 74.7 | 91.2 | **87.5** | 82.8 | **95.7** | 66.3 | **94.9** | 81.1 | **63.5** | 74.5 | 82.6 |
+| This repo | **85.2** | **84.5** | 80.3 | 84.7 | **79.8** | **91.1** | **76.8** | **92.0** | 87.3 | **83.8** | **95.7** | **69.6** | 94.3 | **83.7** | 51.5 | **76.1** | **82.8** |
 
 &nbsp;
 ## Point Cloud Sementic Segmentation
@@ -179,4 +183,4 @@ Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS) dataset
 |  | Mean IoU | Overall Acc | 
 | :---: | :---: | :---: | 
 | Paper | 56.1 | 84.1 |
-| This repo | 59.2 | 85.0 |
+| This repo | **59.2** | **85.0** |
